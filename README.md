@@ -4,6 +4,8 @@ http://plnkr.co/edit/gjXyP0eb6c2eLASt9bke
 EDIT: daca aveti nevoie de ceva, shoot a message @ andrei.petre@qualitance.com
 
 ![alt tag](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png)
+
+
 Angular - client side js framework for adding interactivity to our html
 
 Modules - what defines the angular app, where we define dependencies. 
