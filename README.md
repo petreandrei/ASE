@@ -1,6 +1,9 @@
 # ASE
 http://plnkr.co/edit/gjXyP0eb6c2eLASt9bke
 
+EDIT: daca aveti nevoie de ceva, shoot a message @ andrei.petre@qualitance.com
+
+![alt tag](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png)
 Angular - client side js framework for adding interactivity to our html
 
 Modules - what defines the angular app, where we define dependencies. 
@@ -25,8 +28,8 @@ Controllers are where we define our app’s behaviour by defining functions and 
 The code from the anonymous func will get executed when our ctrl is loaded.
 
 Now let’s add an object to our js file. we need to bind this to our ctrl.
-Bind the object to scope. Now we need to figure how to access it in our html
-add the ng-controller directive
+Bind the object to scope. Now we need to figure how to access it. In our html
+add the ng-controller directive.
 
 But what would happen if we would try to access our obj from outside our ctrl div?
 Well it wouldn’t work, because the scope of the ctrl can be accessed only in that div.
@@ -67,14 +70,17 @@ what you are starting to see here is some angular magic. when we click like, we 
 and the value is being automatically updated in the view. This concept is called two way data binding
 this means that expressions are re evaluated each time a property on the scope is being changed.
 
-
 Services - log messages to our console with $log
-	      - fetch son data fro ma web server with $http - this will return a promise
-		a promise allows you to do callbacks on it, like .success()
+	 - fetch json data from a web server with $http - this will return a promise
+	   a promise allows you to do callbacks on it, like .success()
+	   The http req might take a second, or 10 sec, but our page isn’t going to wait for it to finish, because http calls are async.
 
 we need to tell angular what services it needs, let’s inject them
 this way our controller tells the injector ( when i run i need these services) 
 and so when the controller gets activated, the injector provides us with our services that we required
 that’s called dependency injection
 
-this http req might take a second, but our page isn’t going to wait for it to finish, because http calls are async
+==========================================================
+
+
+
