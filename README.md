@@ -51,8 +51,9 @@ We can show all the movies data by adding the movie index, like movies[0].name, 
 but this is not dynamic, too much repeated code.
 
 lets use a directive to iterate through each item-> we’ll use the ng-repeat directive.
+
 ==========================================================
-recap
+Recap:
 
 Directives - html  attributes that trigger some js behaviour
 Modules - Where our application components live
